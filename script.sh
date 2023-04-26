@@ -10,10 +10,10 @@ filename=`ls ${1}*`
 if [ `ls ${filename}` ];then
         echo "${1} creation success."
         echo "
-#include \"headers.h\"
+#include \"script/headers.h\"
 
 " >> ${filename}
-        cat template.c >> ${filename}
+        cat script/template.c >> ${filename}
 
 echo "
 ${1}:
