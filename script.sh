@@ -1,9 +1,6 @@
 echo "/*
-* Author     : Syamili S N
-* Date       : `date +%d-%m-%Y`
-*
-* Filename   : ${1}
-* Description: ${2}
+* Author     : Syamili S N              Filename   : ${1}
+* Date       : `date +%d-%m-%Y`         Description: ${2}
 */
 " >${1}.c
 filename=`ls ${1}*`
